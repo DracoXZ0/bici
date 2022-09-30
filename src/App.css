@@ -17,3 +17,18 @@
     border: 2px solid green;
     -webkit-margin-top-collapse: 20%;
 } */
+
+.contenedor_medio{
+    position: fixed;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    margin-top: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.Alert {
+    overflow-y: scroll;
+}
